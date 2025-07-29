@@ -1,0 +1,63 @@
+/* src/components/BookCard.css */
+
+.book-card {
+  background-color: #ffffff;
+  border: 1px solid #dcdde1;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 12px;
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #e74c3c;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #c0392b;
+}
+
+.genre-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 8px 14px;
+  width: 300px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
